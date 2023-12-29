@@ -1,0 +1,12 @@
+// custom btn
+$custom-colors: (
+  "orange": $orange,
+  "gray-dark": $gray-dark,
+  "gray-light": $gray-light,
+  "gray-black": $gray-black,
+  "nav-opa-blue": $nav-opa-blue,
+  "footer-black": $footer-black,
+);
+
+// merge custom style btn
+$theme-colors: map-merge($theme-colors, $custom-colors);
